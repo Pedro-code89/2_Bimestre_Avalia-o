@@ -42,6 +42,7 @@ main {
     font-size: 2rem;
     color: var(--primary);
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .section-p {
@@ -51,7 +52,25 @@ main {
     font-weight: 500;
 }
 
+.cards-section {
+    display: flex;
+    gap: 3rem;
+    margin: 10px;
+}
 
+.card1, .card2 {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border: 2px solid black;
+}
 
 /* HEADER */
 
